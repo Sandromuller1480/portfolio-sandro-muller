@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de obra</title>
+  <desc id="desc">Composição abstrata neutra para desenvolvimento.</desc>
+  <rect width="1200" height="900" fill="#1C1E22"/>
+  <path d="M90 740C260 520 346 600 496 382C636 180 842 142 1108 218" fill="none" stroke="#C6A66B" stroke-width="4" opacity=".8"/>
+  <rect x="138" y="126" width="348" height="520" fill="#111214" stroke="#F4F0E8" stroke-opacity=".18"/>
+  <rect x="562" y="236" width="452" height="332" fill="#262930" stroke="#C6A66B" stroke-opacity=".36"/>
+  <circle cx="764" cy="388" r="112" fill="#C6A66B" opacity=".14"/>
+  <text x="138" y="742" fill="#F4F0E8" font-family="Arial, sans-serif" font-size="34">Imagem pendente</text>
+  <text x="138" y="790" fill="#B9B5AD" font-family="Arial, sans-serif" font-size="22">Substituir por obra aprovada</text>
+</svg>

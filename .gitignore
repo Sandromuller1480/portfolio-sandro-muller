@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+dist
+.vercel
+.env*
+!.env.example
+*.log
+dev-server*.log
+*.tsbuildinfo
+Thumbs.db
+.DS_Store

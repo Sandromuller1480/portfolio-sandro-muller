@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de identidade visual</title>
+  <desc id="desc">Símbolo geométrico neutro para desenvolvimento.</desc>
+  <rect width="1200" height="900" fill="#111214"/>
+  <rect x="86" y="86" width="1028" height="728" rx="0" fill="#1C1E22" stroke="#C6A66B" stroke-opacity=".35"/>
+  <path d="M600 232l184 108v220L600 668 416 560V340l184-108z" fill="none" stroke="#C6A66B" stroke-width="10"/>
+  <path d="M600 316l110 64v132l-110 64-110-64V380l110-64z" fill="#F4F0E8" opacity=".08"/>
+  <text x="132" y="744" fill="#F4F0E8" font-family="Arial, sans-serif" font-size="34">Case demonstrativo</text>
+  <text x="132" y="792" fill="#B9B5AD" font-family="Arial, sans-serif" font-size="22">Não representa marca real</text>
+</svg>

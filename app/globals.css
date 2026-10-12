@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --background: #111214;
+  --surface: #1c1e22;
+  --surface-soft: #24272d;
+  --text: #f4f0e8;
+  --muted: #b9b5ad;
+  --accent: #c6a66b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 24% 6%, rgba(198, 166, 107, 0.08), transparent 30rem),
+    linear-gradient(180deg, #111214 0%, #15161a 46%, #111214 100%);
+  color: var(--text);
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+::selection {
+  background: rgba(198, 166, 107, 0.42);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.font-editorial {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.container-page {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.surface {
+  background: rgba(28, 30, 34, 0.78);
+  border: 1px solid rgba(244, 240, 232, 0.1);
+}
+
+.champagne-line {
+  position: relative;
+}
+
+.champagne-line::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 1px;
+  margin-bottom: 20px;
+  background: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
